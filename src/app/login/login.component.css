@@ -1,0 +1,45 @@
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  background-color: #1d1d1f;
+}
+
+.container {
+  box-sizing: border-box;
+  margin: 0 230px;
+  padding: 20px;
+}
+
+.box {
+  margin: 100px auto 0;
+  padding: 25px;
+  box-sizing: border-box;
+  width: 400px;
+  height: 250px;
+  background-color: #282727;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box > .form > div {
+  margin: 25px 0;
+}
+
+.box > .form > button {
+  background-color: #6dbc5b;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 15px;
+}
+
+.box > .form > div > label {
+  display: block;
+  width: 50px;
+  color: #fff;
+}
+
+.box > input {
+  width: 100%;
+}

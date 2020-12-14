@@ -1,0 +1,8 @@
+<div>
+  <label>Address:
+    <input type="text" [(ngModel)]="address">
+  </label>
+  <p *ngIf="validOrder !== undefined && validOrder === false" [style.color]="'red'">Pleas input address!</p>
+  <br>
+  <button (click)="doOrder()">Confirm order</button>
+</div>

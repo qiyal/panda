@@ -1,0 +1,43 @@
+ .card-best-product {
+  max-width: 200px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.title {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.title img {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.price {
+  padding: 7px;
+  background-color: #c3c6c6;
+}
+
+.price span {
+  font-weight: bold;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details {
+  color: #6dbc5b;
+}
+
+.add-to-cart {
+  color: #d0ac41;
+}

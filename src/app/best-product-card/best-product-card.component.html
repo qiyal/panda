@@ -1,0 +1,18 @@
+<div class="card-best-product">
+  <div class="title">
+    <img src="assets/images/notebooks/lg_e200.jpg" alt="{{product.name}} img">
+  </div>
+
+  <div class="content">
+    <p class="name">{{product.name}}</p>
+    <p class="description">{{product.description}}
+    </p>
+    <p class="price">
+      Our price: <span>{{product.price}}</span>
+    </p>
+  </div>
+  <div class="actions">
+    <button class="details">Details</button>
+    <button class="add-to-cart" (click)="addToCart()">Add to cart</button>
+  </div>
+</div>

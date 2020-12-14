@@ -1,0 +1,17 @@
+.box {
+  width: 335px;
+  background-color: #fff;
+}
+
+.title {
+  padding: 10px 0 10px 25px;
+  background-color: #6dbc5b;
+}
+
+.title h2 {
+  margin: 0;
+}
+
+.content {
+
+}

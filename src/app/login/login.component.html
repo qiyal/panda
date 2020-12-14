@@ -1,0 +1,19 @@
+<div class="wrapper">
+  <div class="container">
+    <div class="box">
+      <div class="form">
+        <div>
+          <label>Login: </label>
+          <input type="text" [(ngModel)]="login" placeholder="input login">
+        </div>
+
+        <div>
+          <label>Password:</label>
+          <input type="password" [(ngModel)]="password" placeholder="input password">
+        </div>
+
+        <button (click)="logIn()">Sign in</button>
+      </div>
+    </div>
+  </div>
+</div>

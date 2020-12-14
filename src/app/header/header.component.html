@@ -1,0 +1,16 @@
+<header>
+  <div class="container">
+    <div class="logo">
+      <img src="" alt="logo img">
+    </div>
+
+    <nav>
+      <a class="link" routerLink="/home" routerLinkActive="active">Home</a>
+      <a class="link" routerLinkActive="active">Shop</a>
+      <a class="link" routerLinkActive="active">About</a>
+      <a class="link" routerLink="/cart" routerLinkActive="active">Cart</a>
+      <a *ngIf="!isAuth()" class="link" routerLink="/login" routerLinkActive="active">Log In</a>
+      <a *ngIf="isAuth()" class="link profile-link" routerLink="/profile" routerLinkActive="active">Profile</a>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,15 @@
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  background-color: #1d1d1f;
+}
+
+.container {
+  box-sizing: border-box;
+  margin: 0 230px;
+  padding: 20px;
+  background-color: #282727;
+  display: flex;
+  justify-content: space-between;
+}

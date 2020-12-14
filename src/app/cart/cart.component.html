@@ -1,0 +1,25 @@
+<div class="wrapper">
+  <div class="container">
+
+    <section class="box">
+      <div class="title">
+        <h2>Cart</h2>
+      </div>
+
+      <div class="content">
+        <app-best-product-card *ngFor="let p of products" [product]="p"></app-best-product-card>
+        <div *ngIf="products.length === 0">Cart is empty!</div>
+      </div>
+
+      <div *ngIf="products.length !== 0" class="actions">
+        <button routerLink="./order">Do order</button>
+      </div>
+
+      <div class="order-box">
+        <router-outlet></router-outlet>
+      </div>
+
+    </section>
+
+  </div>
+</div>

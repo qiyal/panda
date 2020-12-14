@@ -1,0 +1,9 @@
+<div class="box">
+  <div class="title">
+    <h2>Top Sells</h2>
+  </div>
+
+  <div class="content">
+    <app-top-sell-card *ngFor="let product of topSells" [product]="product"></app-top-sell-card>
+  </div>
+</div>

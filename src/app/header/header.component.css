@@ -1,0 +1,40 @@
+header {
+  background-color: #d0ac41;
+}
+
+.container {
+  margin: 0 230px;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 150px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.link {
+  margin: 0 15px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link:last-child {
+  margin-left: 0;
+}
+
+.link:last-child {
+  margin-right: 0;
+}
+
+.active {
+  background-color: #000;
+  color: #fff;
+}

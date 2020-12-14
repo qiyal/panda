@@ -1,0 +1,26 @@
+<section class="box">
+  <div class="title">
+    <h2>Best Products</h2>
+  </div>
+
+  <div class="content">
+    <app-best-product-card *ngFor="let product of bestProducts" [product]="product"></app-best-product-card>
+  </div>
+<!--  <div class="content">-->
+<!--    <app-best-product-card [product]="bestProducts[0]"></app-best-product-card>-->
+<!--  </div>-->
+<!--  <div [ngSwitch]="count">-->
+<!--    <div *ngSwitchCase="'1'">One</div>-->
+<!--    <div *ngSwitchCase="'2'">Two</div>-->
+<!--    <div *ngSwitchCase="'3'">Three</div>-->
+<!--    <div *ngSwitchCase="'4'">Four</div>-->
+<!--    <div *ngSwitchCase="'5'">Five</div>-->
+<!--    <div *ngSwitchDefault>This is Default</div>-->
+<!--  </div>-->
+<!--  <button (click)="incre()">Click</button>-->
+<!--  <h4>{{count}}</h4>-->
+<!--  <h3 *ngIf="count % 2 == 1">odd</h3>-->
+<!--  <h3 *ngIf="count % 2 == 0">even</h3>-->
+
+<!--  <h2 [ngClass]="{'odd': count % 2 == 1, 'even': count % 2 == 0}">text</h2>-->
+</section>
